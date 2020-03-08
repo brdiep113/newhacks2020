@@ -3,4 +3,23 @@
     <string name="create_a_story">create a story</string>
     <string name="pick_a_story">pick a story</string>
     <string name="settings">settings</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="title_activity_create_story">CreateStoryActivity</string>
+    <string name="title_activity_pick_story">PickStoryActivity</string>
+    <string name="title_activity_story_progression">StoryProgressionActivity</string>
 </resources>
