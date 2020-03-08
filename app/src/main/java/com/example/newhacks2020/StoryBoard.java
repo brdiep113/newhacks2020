@@ -7,16 +7,35 @@ public class StoryBoard {
     private String mp3File; // the mp3 file's name
     private String scene_text; //the story text for the current scene
     private StoryBoard previous_scene = null; //the previous scene
-    private ArrayList<StoryBoard> boards; //the possible story paths that this board can go down
+    private String prompt1;
+    private String prompt2;
+    private StoryBoard board1 = null;
+    private StoryBoard board2 = null;
 
-    public StoryBoard(String scene, String soundfile) {
-        mp3File = soundfile;
 
+    public StoryBoard(String soundfile, String scene_text, String prompt1, String prompt2) {
+        this.mp3File = soundfile;
+        this.scene_text = scene_text;
+        this.prompt1 = prompt1;
+        this.prompt2 = prompt2;
 
     }
-    public void addStoryBoard(StoryBoard board) //adds a substory board to boards
+
+
+    public StoryBoard getBoard1(){return this.board1;}
+    public StoryBoard getBoard2(){return this.board2;}
+
+    public StoryBoard checkPrompt(String prompt) //checks userinput against prompts & returns corresponding storyboard, if any
     {
-        this.boards.add(board);
+        if (prompt==this.prompt1)
+            {
+                return this.board1;
+            }
+        else if (prompt == this.prompt2)
+            {
+                return this.board2;
+            }
+        return null;
     }
 
     public String getScene_text() { // scene text
