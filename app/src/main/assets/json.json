@@ -4,28 +4,37 @@
   "prompt1": ["May I get a tea?", "scene2"],
   "prompt2": ["Can I have a coffee?", "scene3"]
   },
-
   "scene2": {
-  "text": "Sure thing! That'll be $2.75. Will you be paying with card or cash today?",
-  "prompt1": ["I will be paying with card.", "scene3"],
-  "prompt2": ["I will be paying with cash.", "scene4"]
+  "text": "Sure! Would you like green tea or black tea?",
+  "prompt1": ["I would like green tea.", "scene4"],
+  "prompt2": ["I would like black tea.", "scene4"]
   },
-
   "scene3": {
-  "text": "Alright! You can tap when the machine is ready.",
-  "prompt1": ["Thank you. Have a great day!", "scene5"],
-  "prompt2": null
+  "text": "Sure! Would you like sugar or cream with your coffee?",
+  "prompt1": ["Sugar, please.", "scene4"],
+  "prompt2": ["I would like cream please.", "scene4"]
   },
-
   "scene4": {
-  "text": "Alright! Thanks!",
-  "prompt1": ["Thank you. Have a great day!", "scene5"],
-  "prompt2": null
+  "text": "Sure thing! That'll be $2.75. Will you be paying with card or cash today?",
+  "prompt1": ["I will be paying with card.", "scene5"],
+  "prompt2": ["I will be paying with cash.", "scene6"]
   },
 
   "scene5": {
-    "text": "Thanks!",
-    "prompt1": ["Thank you. Have a great day!", null],
-    "prompt2": null
+  "text": "Alright! You can tap when the machine is ready.",
+  "prompt1": ["Thank you for the drink", "scene7"],
+  "prompt2": [null]
+  },
+
+  "scene6": {
+  "text": "Cash? Alright, thanks!",
+  "prompt1": ["Thank you for the drink.", "scene7"],
+  "prompt2": [null]
+  },
+
+  "scene7": {
+  "text": "Goodbye!",
+  "prompt1": [null],
+  "prompt2": [null]
   }
 }
