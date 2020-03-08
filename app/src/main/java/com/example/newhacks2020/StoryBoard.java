@@ -50,10 +50,6 @@ public class StoryBoard {
         return previous_scene;
     }
 
-    public ArrayList<StoryBoard> getBoards() {
-        return this.boards;
-    }
-
     public void setScene_text(String text) {
         this.scene_text = text;
     }
