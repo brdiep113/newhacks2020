@@ -10,6 +10,6 @@ public class PickStoryActivity extends  AppCompatActivity{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_create_story);
+        setContentView(R.layout.activity_pick_story);
     }
 }
