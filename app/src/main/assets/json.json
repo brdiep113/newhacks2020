@@ -1,0 +1,31 @@
+{
+  "scene1": {
+  "text": "Hi, welcome to Starbucks, how may I take your order?",
+  "prompt1": ["May I get a tea?", "scene2"],
+  "prompt2": ["Can I have a coffee?", "scene3"]
+  },
+
+  "scene2": {
+  "text": "Sure thing! That'll be $2.75. Will you be paying with card or cash today?",
+  "prompt1": ["I will be paying with card.", "scene3"],
+  "prompt2": ["I will be paying with cash.", "scene4"]
+  },
+
+  "scene3": {
+  "text": "Alright! You can tap when the machine is ready.",
+  "prompt1": ["Thank you. Have a great day!", "scene5"],
+  "prompt2": null
+  },
+
+  "scene4": {
+  "text": "Alright! Thanks!",
+  "prompt1": ["Thank you. Have a great day!", "scene5"],
+  "prompt2": null
+  },
+
+  "scene5": {
+    "text": "Thanks!",
+    "prompt1": ["Thank you. Have a great day!", null],
+    "prompt2": null
+  }
+}
