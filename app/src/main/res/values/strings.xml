@@ -1,3 +1,6 @@
 <resources>
-    <string name="app_name">New Hacks 2020</string>
+    <string name="app_name">Choose your own adventure</string>
+    <string name="create_a_story">create a story</string>
+    <string name="pick_a_story">pick a story</string>
+    <string name="settings">settings</string>
 </resources>
