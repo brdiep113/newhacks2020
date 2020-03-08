@@ -1,14 +1,16 @@
-package com.example.newhacks2020;
-
-import androidx.appcompat.app.AppCompatActivity;
+package com.example.newhacks2020.Activities;
 
 import android.os.Bundle;
 
-public class MainActivity extends AppCompatActivity {
+import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.newhacks2020.R;
+
+
+public class SettingsActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_settings);
     }
 }

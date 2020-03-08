@@ -4,7 +4,7 @@ import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.android.newhackstextrecognition.R;
+import com.example.newhacks2020.R;
 
 
 public class CreateStoryActivity extends AppCompatActivity {

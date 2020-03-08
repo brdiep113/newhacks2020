@@ -4,22 +4,15 @@ import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.android.newhackstextrecognition.R;
+import com.example.newhacks2020.R;
+
 
 public class StoryProgressionActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.);
+        setContentView(R.layout.activity_story_progression);
     }
 
-
-
-
-    public void loadStrings(StoryProgressionActivity nextLine, String prompt, String[] answers, boolean hasNext){
-        nextLine.prompt = prompt;
-        nextLine.hasNext = hasNext;
-        nextLine.answers = answers;
-    }
 }
